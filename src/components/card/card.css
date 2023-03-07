@@ -1,0 +1,69 @@
+.card {
+    padding: 0%;
+    height: 240px;
+    border-radius: 12px;
+    flex-basis: 18%;
+    margin: 0 1% 4em 1%;
+    transition: box-shadow 0.25s ease-in-out 0s,
+        transform 0.25s ease 0s;
+    -moz-box-shadow: 0px 4px 16px rgb(0 0 0 / 8%);
+    -webkit-box-shadow: 0px 4px 16px rgb(0 0 0 / 8%);
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 8%);
+    cursor: pointer;
+}
+
+.card:hover {
+    -moz-box-shadow: 0px 4px 16px rgb(0 0 0 / 12%);
+    -webkit-box-shadow: 0px 4px 16px rgb(0 0 0 / 12%);
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}   
+
+.card .card-image {
+    height: 50%;
+    margin: 0;
+    border-radius: 12px 12px 0 0;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-nft-data{
+    height: 50%;
+    padding: 1em;
+    border-radius: 0 0 12px 12px;
+}
+
+.nft-title{
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 1.5em;
+}
+
+.nft-amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.floor h3, .balance h3{
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.floor-amount, .balance-amount{
+    font-weight: bolder;
+}
+
+.card a{
+    color: #fff;
+    background: teal;
+}

@@ -1,0 +1,19 @@
+.main-container {
+    width: 100vw;
+    height: 100%;
+    padding: 4em;
+    background: #efeded00;
+}
+
+.main-container .main-container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.main-container .nfts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
